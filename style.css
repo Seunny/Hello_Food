@@ -1,0 +1,132 @@
+body
+{
+	background-color: rgb(333,232,444);
+	margin: 10px 5px;
+	color: black;
+	border-radius: 10px;
+	border: 1px solid;
+}
+ 
+ a
+{
+	text-decoration: none;	
+}
+body a:hover
+{
+	color: red;
+
+}
+body a:link
+{
+	color: white;
+}
+body a:visited
+{
+	color: green;
+}
+#side{
+	width: 30%;
+	background-color: red;
+	float: left;
+
+
+}
+.container
+{
+	background-color: green;
+}
+.header
+{
+	background-color: rgb(333,232,444);
+	text-align: center;
+	font-size: 40px;
+	font-weight: bolder;
+	padding:20px 20px;
+	border-radius: 10px;
+	}
+.nav
+{	
+	background-color: rgb(333,232,444);
+	padding: 15px 0px ;
+	margin: 1px;
+}
+.nav a
+{
+	font-style: italic;
+	font-family:"Time new Roman", "Georgia";
+
+}
+.main 
+{		font-size: 15px;
+		width: 70%;
+		float: right;
+
+
+
+}
+#article{
+	font-weight: bold;
+	padding: 2px 10px;
+
+
+
+}
+#form
+{		
+		font-size: 20px;
+		padding: 35px 50px;
+		text-align: justify-all;
+		margin: 0 0 0 40%;
+		color: black;
+}
+#form textarea
+{
+	width: 200px;
+	height: 200px;
+}
+
+.footer
+{	
+	padding: 5px 5px;
+	font-size: 12px;	
+	color: black;
+	text-align: center;
+	border-radius: 5px;
+	background:red;
+	clear: both;
+}
+
+
+/*+++++++++++++++++++++About Page Style*+++++++++++++*/
+
+#about-page 
+{
+	background-color: rgb(333,232,444);
+	margin: 10px 5px;
+	padding: 40px 30px 50px 60px;
+	color: black;
+/*
+		font-family: "Times New Roman";
+		font-size: 24px;
+		margin: 40px;
+		padding:  40px 30px 40px;
+		font-style: normal;*/
+}
+#about-page #address {
+		width: 70%;
+    	font-size: 16px;
+		padding: 30px 40px 30px 0;
+		margin: 0 0 0 24%;
+		line-height: 18px;
+		text-align: justify;
+		float: center;
+}
+
+
+/****************** Contact information here*************************/
+
+#contact{
+
+}
+
+#form-block{}
